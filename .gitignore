@@ -1,17 +1,56 @@
+# =========================
 # Python
+# =========================
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
 
 # Virtual environments
 .venv/
 venv/
+env/
+ENV/
 
-# Logs & memory
+# =========================
+# Logs, outputs, memory
+# =========================
 logs/
 memory.json
+metrics.json
+*.log
 
-# OS
-.DS_Store
+# =========================
+# Experiments / artifacts
+# =========================
+outputs/
+runs/
+checkpoints/
 
-# Ollama / local models (safety)
+# =========================
+# Local models / LLM assets
+# =========================
 *.gguf
+*.bin
+*.safetensors
+.ollama/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# =========================
+# Notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# PDFs / exports (optional)
+# =========================
+*.pdf
