@@ -1,2 +1,121 @@
-# friendship-engine
-Proactive conversational agent with constrained curiosity and lightweight memory, exploring perceived emotional support and social bonding (CLI + local LLM via Ollama).
+Friendship Engine
+
+Exploring Proactive Conversational AI for Emotional Support and Social Bonding
+
+Prototype / research exploration. Not a human.
+
+Overview
+
+Friendship Engine is an exploratory conversational AI project investigating whether interaction design choices—rather than raw model capability—can increase a user’s perceived sense of being listened to, understood, and emotionally supported.
+
+The project focuses on proactive but constrained curiosity, lightweight memory, and contextual follow-ups to study how humans emotionally respond to AI systems in moments of stress, uncertainty, or isolation.
+
+This is not an attempt to replace human relationships.
+It is an investigation into AI as a non-judgmental conversational space.
+
+
+
+Research Question
+
+Can a conversational AI that asks carefully constrained, context-sensitive follow-up questions foster a perceived emotional bond and encourage self-disclosure, despite lacking genuine human emotion?
+
+
+
+Hypothesis
+
+A conversational agent with:
+	•	proactive but limited curiosity,
+	•	short-term coherent memory,
+	•	emotionally aligned follow-up questions,
+
+will produce:
+	•	longer and more engaged conversations,
+	•	higher perceived emotional support,
+	•	increased willingness to share personal concerns,
+
+compared to a purely reactive conversational style.
+
+
+
+Design Principles
+	•	Anti-interrogation rule: maximum one question per agent message
+	•	Reflection before questioning
+	•	Memory limited to non-sensitive context
+	•	Explicit disclosure: “Prototype / experiment. Not a human.”
+	•	No dependency-inducing language
+	•	Privacy-first: local execution, no cloud logging
+
+
+
+Implementation
+	•	Language: Python
+	•	LLM backend: Local model via Ollama (e.g. LLaMA 3.1 8B)
+	•	Architecture:
+	•	app.py – CLI interaction loop
+	•	llm.py – model wrapper
+	•	policy.py – curiosity and follow-up decision logic
+	•	memory.py – constrained memory handling
+	•	metrics.py – session metrics & self-report surveys
+	•	configs.py – A/B mode and experiment configuration
+
+The system runs fully locally and logs anonymized interaction metrics.
+
+
+
+Evaluation (Exploratory)
+
+The prototype was tested in five in-person sessions.
+
+Self-reported scores (1–10): 3, 5, 6, 7, 8
+
+
+Qualitative feedback themes:
+	•	The agent felt attentive and interested
+	•	Users appreciated follow-up questions
+	•	The system was perceived as non-judgmental
+	•	Lack of genuine human warmth was noted
+	•	Several users felt more comfortable opening up than with people
+
+
+
+Findings
+	•	AI does not replicate human emotional bonding
+	•	AI can provide functional emotional support by:
+	•	lowering barriers to self-expression
+	•	sustaining reflective conversation
+	•	offering a psychologically safe space
+
+Friendship Engine suggests emotional bonding is an emergent property of system design, not a binary model capability.
+
+
+
+Limitations
+	•	Small sample size
+	•	Qualitative evaluation
+	•	Single model and policy configuration
+
+These limitations are intentional: the project prioritizes insight over statistical generalization.
+
+
+
+Future Directions
+	•	Controlled A/B studies on curiosity policies
+	•	Longitudinal user interaction
+	•	Adaptive memory decay
+	•	Ethical boundaries in emotionally supportive AI
+	•	Extensions toward Human–AI Interaction and social robotics
+
+
+
+Why This Matters
+
+As AI systems enter increasingly personal domains, understanding how design constraints shape emotional experience becomes critical.
+
+Friendship Engine frames emotional support not as a replacement for human connection, but as a complementary tool—especially in moments of loneliness, stress, or fear of judgment.
+
+
+
+Status
+
+🧪 Active research prototype (MVP v0.1)
+Built for experimentation, iteration, and learning.
