@@ -136,3 +136,4 @@ Built for experimentation, iteration, and learning.
 
 
 This project treats emotional bonding not as a property of the language model alone, but as an emergent outcome of system design, constraints, and interaction policy.
+
