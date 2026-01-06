@@ -1,8 +1,12 @@
 Friendship Engine
-
+> **Status:** Exploratory research prototype  
+> **Focus:** Human–AI Interaction, emotional support, conversational policy design  
+> **Note:** This is not a chatbot product, but an experimental system built to study how interaction design choices affect perceived emotional bonding with AI.
+> 
 Exploring Proactive Conversational AI for Emotional Support and Social Bonding
 
 Prototype / research exploration. Not a human.
+
 
 Overview
 
@@ -96,7 +100,17 @@ Limitations
 
 These limitations are intentional: the project prioritizes insight over statistical generalization.
 
+## Ethical Positioning
 
+This project explicitly avoids framing the agent as a replacement for human relationships.
+
+Design constraints include:
+- Clear disclosure that the system is a prototype and not a human.
+- No use of dependency-inducing language (e.g., exclusivity, guilt, emotional manipulation).
+- Memory limited to non-sensitive conversational context.
+- Gentle redirection toward human support if strong distress emerges.
+
+The goal is to explore AI as a complementary emotional tool, not as a substitute for human connection.
 
 Future Directions
 	•	Controlled A/B studies on curiosity policies
@@ -114,9 +128,11 @@ As AI systems enter increasingly personal domains, understanding how design cons
 Friendship Engine frames emotional support not as a replacement for human connection, but as a complementary tool—especially in moments of loneliness, stress, or fear of judgment.
 
 
-
-
 Status
 
 🧪 Active research prototype (MVP v0.1)
 Built for experimentation, iteration, and learning.
+
+
+
+This project treats emotional bonding not as a property of the language model alone, but as an emergent outcome of system design, constraints, and interaction policy.
